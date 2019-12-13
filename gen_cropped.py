@@ -9,11 +9,15 @@ print("""
 <html>
 <head>
     <style>
+        body {
+            margin: 0;
+        }
         .choices {
             flex-direction: row;
             justify-content: center;
             align-items: center;
             display: flex;
+            min-width: 1800px;
         }
         .choice-name {
             width: 100%;
